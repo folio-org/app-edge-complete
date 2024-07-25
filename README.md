@@ -16,6 +16,7 @@ Application descriptor repository for app-edge-complete.  Comprised entirely of 
 | `edge-fqm`                  |
 | `edge-patron`               |
 | `edge-courses`              |
+| `edge-dcb`                  |
 
 ## UI Modules
 

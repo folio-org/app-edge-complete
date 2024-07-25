@@ -49,6 +49,10 @@
     {
       "name": "edge-courses",
       "version": "latest"
+    },
+    {
+      "name": "edge-dcb",
+      "version": "latest"
     }
   ]
 }
