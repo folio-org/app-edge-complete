@@ -5,7 +5,7 @@
   "platform": "complete",
   "dependencies": [
     {
-      "name": "app-dcb",
+      "name": "app-platform-complete",
       "version": "^1.0.0-SNAPSHOT"
     }
   ],
@@ -43,6 +43,10 @@
       "version": "latest"
     },
     {
+      "name": "edge-erm",
+      "version": "latest"
+    },
+    {
       "name": "edge-patron",
       "version": "latest"
     },
@@ -52,10 +56,6 @@
     },
     {
       "name": "edge-ncip",
-      "version": "latest"
-    },
-    {
-      "name": "edge-dcb",
       "version": "latest"
     }
   ]
