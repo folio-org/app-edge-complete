@@ -43,10 +43,6 @@
       "version": "latest"
     },
     {
-      "name": "edge-erm",
-      "version": "latest"
-    },
-    {
       "name": "edge-patron",
       "version": "latest"
     },
