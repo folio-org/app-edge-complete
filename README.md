@@ -8,7 +8,6 @@ Application descriptor repository for app-edge-complete. Comprised entirely of e
 |:-----------------|
 | `edge-orders`    |
 | `edge-connexion` |
-| `edge-oai-pmh`   |
 | `edge-dematic`   |
 | `edge-caiasoft`  |
 | `edge-rtac`      |
