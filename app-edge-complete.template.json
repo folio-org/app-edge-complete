@@ -3,56 +3,55 @@
   "version": "${project.version}",
   "description": "${project.description}",
   "platform": "complete",
-  "dependencies": [
-    {
-      "name": "app-platform-complete",
-      "version": "^2.1.0-SNAPSHOT"
+  "dependencies": [  {
+    "name": "app-platform-complete",
+    "version": "^2.1.0-SNAPSHOT"
+  }],
+  "modules":   [
+        {
+      "name": "edge-orders",
+      "version": "3.2.0"
+    },
+        {
+      "name": "edge-connexion",
+      "version": "1.4.0"
+    },
+        {
+      "name": "edge-dematic",
+      "version": "2.4.0"
+    },
+        {
+      "name": "edge-caiasoft",
+      "version": "2.4.0"
+    },
+        {
+      "name": "edge-rtac",
+      "version": "2.9.1"
+    },
+        {
+      "name": "edge-sip2",
+      "version": "3.4.0"
+    },
+        {
+      "name": "edge-fqm",
+      "version": "4.0.0"
+    },
+        {
+      "name": "edge-erm",
+      "version": "1.4.0"
+    },
+        {
+      "name": "edge-patron",
+      "version": "5.3.0"
+    },
+        {
+      "name": "edge-courses",
+      "version": "1.6.0"
+    },
+        {
+      "name": "edge-ncip",
+      "version": "1.10.2"
     }
   ],
-  "modules": [
-    {
-      "name": "edge-orders",
-      "version": "latest"
-    },
-    {
-      "name": "edge-connexion",
-      "version": "latest"
-    },
-    {
-      "name": "edge-dematic",
-      "version": "latest"
-    },
-    {
-      "name": "edge-caiasoft",
-      "version": "latest"
-    },
-    {
-      "name": "edge-rtac",
-      "version": "latest"
-    },
-    {
-      "name": "edge-sip2",
-      "version": "latest"
-    },
-    {
-      "name": "edge-fqm",
-      "version": "latest"
-    },
-    {
-      "name": "edge-erm",
-      "version": "latest"
-    },
-    {
-      "name": "edge-patron",
-      "version": "latest"
-    },
-    {
-      "name": "edge-courses",
-      "version": "latest"
-    },
-    {
-      "name": "edge-ncip",
-      "version": "latest"
-    }
-  ]
+  "uiModules": []
 }
