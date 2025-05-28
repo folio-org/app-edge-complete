@@ -23,10 +23,6 @@
       "version": "latest"
     },
     {
-      "name": "edge-rtac",
-      "version": "latest"
-    },
-    {
       "name": "edge-sip2",
       "version": "latest"
     },
