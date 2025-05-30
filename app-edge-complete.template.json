@@ -11,10 +11,6 @@
   ],
   "modules": [
     {
-      "name": "edge-orders",
-      "version": "latest"
-    },
-    {
       "name": "edge-connexion",
       "version": "latest"
     },
@@ -27,15 +23,7 @@
       "version": "latest"
     },
     {
-      "name": "edge-rtac",
-      "version": "latest"
-    },
-    {
       "name": "edge-sip2",
-      "version": "latest"
-    },
-    {
-      "name": "edge-fqm",
       "version": "latest"
     },
     {
