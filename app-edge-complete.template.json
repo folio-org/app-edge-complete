@@ -27,10 +27,6 @@
       "version": "latest"
     },
     {
-      "name": "edge-fqm",
-      "version": "latest"
-    },
-    {
       "name": "edge-patron",
       "version": "latest"
     },
