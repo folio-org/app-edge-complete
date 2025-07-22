@@ -11,10 +11,6 @@
   ],
   "modules": [
     {
-      "name": "edge-orders",
-      "version": "latest"
-    },
-    {
       "name": "edge-connexion",
       "version": "latest"
     },
@@ -24,10 +20,6 @@
     },
     {
       "name": "edge-caiasoft",
-      "version": "latest"
-    },
-    {
-      "name": "edge-rtac",
       "version": "latest"
     },
     {
