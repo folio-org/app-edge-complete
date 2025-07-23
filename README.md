@@ -6,13 +6,10 @@ Application descriptor repository for app-edge-complete. Comprised entirely of e
 
 | Module name      |
 |:-----------------|
-| `edge-orders`    |
 | `edge-connexion` |
 | `edge-dematic`   |
 | `edge-caiasoft`  |
-| `edge-rtac`      |
 | `edge-sip2`      |
-| `edge-fqm`       |
 | `edge-patron`    |
 | `edge-courses`   |
 | `edge-ncip`      |
