@@ -1,6 +1,6 @@
 {
   "name": "app-edge-complete",
-  "version": "2.2.0-SNAPSHOT",
+  "version": "2.2.0-SNAPSHOT.1000",
   "description": "Application comprised of Folio edge modules",
   "platform": "complete",
   "dependencies": [
