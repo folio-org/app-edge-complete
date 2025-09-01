@@ -3,60 +3,61 @@
   "version": "${project.version}",
   "description": "${project.description}",
   "platform": "complete",
-  "dependencies": [
-    {
+  "dependencies":   [
+        {
       "name": "app-platform-complete",
       "version": "^2.1.0-SNAPSHOT"
     },
-    {
+        {
       "name": "app-fqm",
       "version": "^1.1.0-SNAPSHOT"
     }
   ],
-  "modules": [
-    {
+  "modules":   [
+        {
       "name": "edge-orders",
-      "version": "latest"
+      "version": "3.2.0"
     },
-    {
+        {
       "name": "edge-connexion",
-      "version": "latest"
+      "version": "1.4.1"
     },
-    {
+        {
       "name": "edge-dematic",
-      "version": "latest"
+      "version": "2.4.2"
     },
-    {
+        {
       "name": "edge-caiasoft",
-      "version": "latest"
+      "version": "2.4.1"
     },
-    {
+        {
       "name": "edge-rtac",
-      "version": "latest"
+      "version": "2.9.3"
     },
-    {
+        {
       "name": "edge-sip2",
-      "version": "latest"
+      "version": "3.4.1"
     },
-    {
+        {
       "name": "edge-fqm",
-      "version": "latest"
+      "version": "4.0.1"
     },
-    {
+        {
       "name": "edge-erm",
-      "version": "latest"
+      "version": "1.4.0"
     },
-    {
+        {
       "name": "edge-patron",
-      "version": "latest"
+      "version": "5.3.1"
     },
-    {
+        {
       "name": "edge-courses",
-      "version": "latest"
+      "version": "1.6.0"
     },
-    {
+        {
       "name": "edge-ncip",
-      "version": "latest"
+      "version": "1.10.2"
     }
-  ]
+  ],
+  "uiModules": []
 }
