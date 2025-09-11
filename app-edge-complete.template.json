@@ -39,10 +39,6 @@
       "version": "latest"
     },
     {
-      "name": "edge-fqm",
-      "version": "latest"
-    },
-    {
       "name": "edge-erm",
       "version": "latest"
     },
