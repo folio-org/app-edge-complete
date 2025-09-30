@@ -1,6 +1,6 @@
 {
   "name": "app-edge-complete",
-  "version": "2.2.0-SNAPSHOT.100100000000039",
+  "version": "2.2.0-SNAPSHOT.100100000000581",
   "description": "Application comprised of Folio edge modules",
   "platform": "complete",
   "dependencies": [
@@ -24,7 +24,7 @@
     },
     {
       "name": "edge-sip2",
-      "version": "3.5.0-SNAPSHOT.203"
+      "version": "3.5.0-SNAPSHOT.204"
     },
     {
       "name": "edge-patron",
