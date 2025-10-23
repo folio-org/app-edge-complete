@@ -1,0 +1,50 @@
+{
+  "name": "${project.name}",
+  "version": "${project.version}",
+  "description": "${project.description}",
+  "platform": "complete",
+  "dependencies": [
+    {
+      "name": "app-platform-complete",
+      "version": "^3.0.0-SNAPSHOT",
+      "preRelease": "only"
+    }
+  ],
+  "modules": [
+    {
+      "name": "edge-connexion",
+        "version": "latest",
+        "preRelease": "only"
+    },
+    {
+      "name": "edge-dematic",
+        "version": "latest",
+        "preRelease": "only"
+    },
+    {
+      "name": "edge-caiasoft",
+        "version": "latest",
+        "preRelease": "only"
+    },
+    {
+      "name": "edge-sip2",
+        "version": "latest",
+        "preRelease": "only"
+    },
+    {
+      "name": "edge-patron",
+        "version": "latest",
+        "preRelease": "only"
+    },
+    {
+      "name": "edge-courses",
+        "version": "latest",
+        "preRelease": "only"
+    },
+    {
+      "name": "edge-ncip",
+        "version": "latest",
+        "preRelease": "only"
+    }
+  ]
+}
