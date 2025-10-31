@@ -1,6 +1,6 @@
 {
   "name": "app-edge-complete",
-  "version": "2.2.0-SNAPSHOT.100100000001106",
+  "version": "2.2.0-SNAPSHOT.100100000002561",
   "description": "Application comprised of Folio edge modules",
   "platform": "complete",
   "dependencies": [
@@ -16,7 +16,7 @@
     },
     {
       "name": "edge-dematic",
-      "version": "3.0.0-SNAPSHOT.68"
+      "version": "2.5.0-SNAPSHOT.101"
     },
     {
       "name": "edge-caiasoft",
