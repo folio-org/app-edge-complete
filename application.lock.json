@@ -1,6 +1,6 @@
 {
   "name": "app-edge-complete",
-  "version": "2.2.0-SNAPSHOT.100100000002562",
+  "version": "2.2.0-SNAPSHOT.100100000002638",
   "description": "Application comprised of Folio edge modules",
   "platform": "complete",
   "dependencies": [
@@ -28,7 +28,7 @@
     },
     {
       "name": "edge-patron",
-      "version": "5.4.0-SNAPSHOT.145"
+      "version": "5.4.0-SNAPSHOT.146"
     },
     {
       "name": "edge-courses",
