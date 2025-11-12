@@ -1,6 +1,6 @@
 {
   "name": "app-edge-complete",
-  "version": "2.2.0-SNAPSHOT.100100000002638",
+  "version": "2.2.0-SNAPSHOT.100200000000524",
   "description": "Application comprised of Folio edge modules",
   "platform": "complete",
   "dependencies": [
@@ -12,7 +12,7 @@
   "modules": [
     {
       "name": "edge-connexion",
-      "version": "1.4.2-SNAPSHOT.41"
+      "version": "1.4.2-SNAPSHOT.40"
     },
     {
       "name": "edge-dematic",
@@ -20,15 +20,15 @@
     },
     {
       "name": "edge-caiasoft",
-      "version": "2.5.0-SNAPSHOT.57"
+      "version": "2.3.3-SNAPSHOT.53"
     },
     {
       "name": "edge-sip2",
-      "version": "3.5.0-SNAPSHOT.204"
+      "version": "3.5.0-SNAPSHOT.203"
     },
     {
       "name": "edge-patron",
-      "version": "5.4.0-SNAPSHOT.146"
+      "version": "5.4.0-SNAPSHOT.144"
     },
     {
       "name": "edge-courses",
@@ -36,7 +36,7 @@
     },
     {
       "name": "edge-ncip",
-      "version": "1.11.0-SNAPSHOT.37"
+      "version": "1.10.2-SNAPSHOT.35"
     }
   ],
   "uiModules": []
