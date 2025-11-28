@@ -16,47 +16,47 @@
   "modules":   [
         {
       "name": "edge-orders",
-      "version": "3.2.2"
+      "version": "3.3.0-SNAPSHOT.177"
     },
         {
       "name": "edge-connexion",
-      "version": "1.4.1"
+      "version": "1.4.1-SNAPSHOT.101"
     },
         {
       "name": "edge-dematic",
-      "version": "2.4.2"
+      "version": "2.5.0-SNAPSHOT.160"
     },
         {
       "name": "edge-caiasoft",
-      "version": "2.4.1"
+      "version": "2.5.0-SNAPSHOT.122"
     },
         {
       "name": "edge-rtac",
-      "version": "2.9.3"
+      "version": "2.9.3-SNAPSHOT.257"
     },
         {
       "name": "edge-sip2",
-      "version": "3.4.2"
+      "version": "3.4.2-SNAPSHOT.361"
     },
         {
       "name": "edge-fqm",
-      "version": "4.0.1"
+      "version": "4.1.0-SNAPSHOT.123"
     },
         {
       "name": "edge-erm",
-      "version": "1.4.0"
+      "version": "1.5.0-SNAPSHOT.532"
     },
         {
       "name": "edge-patron",
-      "version": "5.3.1"
+      "version": "5.4.0-SNAPSHOT.196"
     },
         {
       "name": "edge-courses",
-      "version": "1.6.0"
+      "version": "1.7.0-SNAPSHOT.1181"
     },
         {
       "name": "edge-ncip",
-      "version": "1.10.2"
+      "version": "1.11.0-SNAPSHOT.128"
     }
   ],
   "uiModules": []
