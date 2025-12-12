@@ -3,60 +3,72 @@
   "version": "${project.version}",
   "description": "${project.description}",
   "platform": "complete",
-  "dependencies": [
-    {
+  "dependencies":   [
+        {
       "name": "app-platform-complete",
       "version": "^2.1.0"
     },
-    {
+        {
       "name": "app-fqm",
       "version": "^1.1.0"
     }
   ],
-  "modules": [
-    {
+  "modules":   [
+        {
       "name": "edge-orders",
-      "version": "latest"
+      "version": "3.2.2",
+      "url": null
     },
-    {
+        {
       "name": "edge-connexion",
-      "version": "latest"
+      "version": "1.4.1",
+      "url": null
     },
-    {
+        {
       "name": "edge-dematic",
-      "version": "latest"
+      "version": "2.4.2",
+      "url": null
     },
-    {
+        {
       "name": "edge-caiasoft",
-      "version": "latest"
+      "version": "2.4.1",
+      "url": null
     },
-    {
+        {
       "name": "edge-rtac",
-      "version": "latest"
+      "version": "3.0.0",
+      "url": "https://mdr-folio-eis-us-east-1-dev.s3.amazonaws.com/edge-rtac-3.0.0"
     },
-    {
+        {
       "name": "edge-sip2",
-      "version": "latest"
+      "version": "3.4.2",
+      "url": null
     },
-    {
+        {
       "name": "edge-fqm",
-      "version": "latest"
+      "version": "4.0.1",
+      "url": null
     },
-    {
+        {
       "name": "edge-erm",
-      "version": "latest"
+      "version": "1.4.0",
+      "url": null
     },
-    {
+        {
       "name": "edge-patron",
-      "version": "latest"
+      "version": "5.3.1",
+      "url": null
     },
-    {
+        {
       "name": "edge-courses",
-      "version": "latest"
+      "version": "1.6.0",
+      "url": null
     },
-    {
+        {
       "name": "edge-ncip",
-      "version": "latest"
+      "version": "1.10.2",
+      "url": null
     }
-  ]
+  ],
+  "uiModules": []
 }
