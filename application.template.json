@@ -6,69 +6,69 @@
   "dependencies": [
     {
       "name": "app-platform-complete",
-      "version": "^VERSION_^2.1.0",
+      "version": "^2.5.5",
       "preRelease": "false"
     },
     {
       "name": "app-fqm",
-      "version": "^VERSION_^1.0.0",
+      "version": "^1.0.15",
       "preRelease": "false"
     }
   ],
   "modules": [
     {
       "name": "edge-orders",
-      "version": "^VERSION_latest",
+      "version": "~3.2.3",
       "preRelease": "false"
     },
     {
       "name": "edge-connexion",
-      "version": "^VERSION_latest",
+      "version": "~1.4.1",
       "preRelease": "false"
     },
     {
       "name": "edge-dematic",
-      "version": "^VERSION_latest",
+      "version": "~2.4.3",
       "preRelease": "false"
     },
     {
       "name": "edge-caiasoft",
-      "version": "^VERSION_latest",
+      "version": "~2.4.1",
       "preRelease": "false"
     },
     {
       "name": "edge-rtac",
-      "version": "^VERSION_latest",
+      "version": "~2.9.4",
       "preRelease": "false"
     },
     {
       "name": "edge-sip2",
-      "version": "^VERSION_latest",
+      "version": "~3.4.3",
       "preRelease": "false"
     },
     {
       "name": "edge-fqm",
-      "version": "^VERSION_latest",
+      "version": "^4.0.2",
       "preRelease": "false"
     },
     {
       "name": "edge-erm",
-      "version": "^VERSION_latest",
+      "version": "~1.4.1",
       "preRelease": "false"
     },
     {
       "name": "edge-patron",
-      "version": "^VERSION_latest",
+      "version": "~5.3.3",
       "preRelease": "false"
     },
     {
       "name": "edge-courses",
-      "version": "^VERSION_latest",
+      "version": "~1.6.1",
       "preRelease": "false"
     },
     {
       "name": "edge-ncip",
-      "version": "^VERSION_latest",
+      "version": "~1.10.3",
       "preRelease": "false"
     }
   ]
