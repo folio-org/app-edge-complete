@@ -6,45 +6,45 @@
   "dependencies": [
     {
       "name": "app-platform-complete",
-      "version": "^3.0.0-SNAPSHOT",
-      "preRelease": "only"
+      "version": "^VERSION_^3.0.0-SNAPSHOT",
+      "preRelease": "false"
     }
   ],
   "modules": [
     {
       "name": "edge-connexion",
-        "version": "latest",
-        "preRelease": "only"
+      "version": "^VERSION_latest",
+      "preRelease": "false"
     },
     {
       "name": "edge-dematic",
-        "version": "latest",
-        "preRelease": "only"
+      "version": "^VERSION_latest",
+      "preRelease": "false"
     },
     {
       "name": "edge-caiasoft",
-        "version": "latest",
-        "preRelease": "only"
+      "version": "^VERSION_latest",
+      "preRelease": "false"
     },
     {
       "name": "edge-sip2",
-        "version": "latest",
-        "preRelease": "only"
+      "version": "^VERSION_latest",
+      "preRelease": "false"
     },
     {
       "name": "edge-patron",
-        "version": "latest",
-        "preRelease": "only"
+      "version": "^VERSION_latest",
+      "preRelease": "false"
     },
     {
       "name": "edge-courses",
-        "version": "latest",
-        "preRelease": "only"
+      "version": "^VERSION_latest",
+      "preRelease": "false"
     },
     {
       "name": "edge-ncip",
-        "version": "latest",
-        "preRelease": "only"
+      "version": "^VERSION_latest",
+      "preRelease": "false"
     }
   ]
 }
