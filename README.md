@@ -14,6 +14,7 @@ Application descriptor repository for app-edge-complete. Comprised entirely of e
 | `edge-courses`   |
 | `edge-ncip`      |
 | `edge-dcb`       |
+| `edge-erm`       |
 
 ## UI Modules
 
