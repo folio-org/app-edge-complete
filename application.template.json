@@ -45,6 +45,11 @@
       "name": "edge-ncip",
         "version": "latest",
         "preRelease": "only"
+    },
+    {
+      "name": "edge-erm",
+        "version": "latest",
+        "preRelease": "only"
     }
   ]
 }
