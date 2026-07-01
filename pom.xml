@@ -29,7 +29,7 @@
     <folio-application-generator.version>1.3.0</folio-application-generator.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.name>app-edge-complete</project.name>
-    <templatePath>${basedir}/application.template.json</templatePath>
+    <templatePath>${basedir}/app-edge-complete.template.json</templatePath>
   </properties>
   <repositories>
     <repository>
