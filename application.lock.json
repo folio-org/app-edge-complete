@@ -4,9 +4,9 @@
   "version" : "2.2.5",
   "description" : "Application comprised of Folio edge modules",
   "modules" : [ {
-    "id" : "edge-courses-1.7.1",
-    "name" : "edge-courses",
-    "version" : "1.7.1"
+    "id" : "edge-erm-1.5.1",
+    "name" : "edge-erm",
+    "version" : "1.5.1"
   }, {
     "id" : "edge-connexion-1.5.0",
     "name" : "edge-connexion",
@@ -28,13 +28,13 @@
     "name" : "edge-patron",
     "version" : "5.4.0"
   }, {
+    "id" : "edge-courses-1.7.1",
+    "name" : "edge-courses",
+    "version" : "1.7.1"
+  }, {
     "id" : "edge-ncip-1.11.3",
     "name" : "edge-ncip",
     "version" : "1.11.3"
-  }, {
-    "id" : "edge-erm-1.5.0",
-    "name" : "edge-erm",
-    "version" : "1.5.0"
   } ],
   "uiModules" : [ ],
   "dependencies" : [ {
@@ -320,7 +320,7 @@
       }
     }
   }, {
-    "id" : "edge-erm-1.5.0",
+    "id" : "edge-erm-1.5.1",
     "name" : "Retrieve license term information Edge API",
     "requires" : [ {
       "id" : "login",
@@ -332,7 +332,7 @@
     "provides" : [ ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/edge-erm:1.5.0",
+      "dockerImage" : "folioorg/edge-erm:1.5.1",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
