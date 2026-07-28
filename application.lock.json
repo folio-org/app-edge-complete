@@ -4,21 +4,17 @@
   "version" : "2.2.5",
   "description" : "Application comprised of Folio edge modules",
   "modules" : [ {
-    "id" : "edge-erm-1.5.1",
-    "name" : "edge-erm",
-    "version" : "1.5.1"
+    "id" : "edge-dematic-3.0.1",
+    "name" : "edge-dematic",
+    "version" : "3.0.1"
+  }, {
+    "id" : "edge-caiasoft-3.0.1",
+    "name" : "edge-caiasoft",
+    "version" : "3.0.1"
   }, {
     "id" : "edge-connexion-1.5.0",
     "name" : "edge-connexion",
     "version" : "1.5.0"
-  }, {
-    "id" : "edge-dematic-3.0.0",
-    "name" : "edge-dematic",
-    "version" : "3.0.0"
-  }, {
-    "id" : "edge-caiasoft-3.0.0",
-    "name" : "edge-caiasoft",
-    "version" : "3.0.0"
   }, {
     "id" : "edge-sip2-4.0.2",
     "name" : "edge-sip2",
@@ -35,6 +31,10 @@
     "id" : "edge-ncip-1.11.3",
     "name" : "edge-ncip",
     "version" : "1.11.3"
+  }, {
+    "id" : "edge-erm-1.5.1",
+    "name" : "edge-erm",
+    "version" : "1.5.1"
   } ],
   "uiModules" : [ ],
   "dependencies" : [ {
@@ -61,7 +61,7 @@
     } ],
     "permissionSets" : [ ]
   }, {
-    "id" : "edge-dematic-3.0.0",
+    "id" : "edge-dematic-3.0.1",
     "name" : "Edge Dematic API",
     "requires" : [ {
       "id" : "login",
@@ -85,7 +85,7 @@
     "provides" : [ ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/edge-dematic:3.0.0",
+      "dockerImage" : "folioorg/edge-dematic:3.0.1",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
@@ -103,7 +103,7 @@
       }
     }
   }, {
-    "id" : "edge-caiasoft-3.0.0",
+    "id" : "edge-caiasoft-3.0.1",
     "name" : "Edge CaiaiSoft API",
     "requires" : [ {
       "id" : "login",
@@ -124,7 +124,7 @@
     "provides" : [ ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/edge-caiasoft:3.0.0",
+      "dockerImage" : "folioorg/edge-caiasoft:3.0.1",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
