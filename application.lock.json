@@ -1,9 +1,17 @@
 {
-  "id" : "app-edge-complete-2.3.0-SNAPSHOT.100200000010080",
+  "id" : "app-edge-complete-2.3.0-SNAPSHOT.100200000010181",
   "name" : "app-edge-complete",
-  "version" : "2.3.0-SNAPSHOT.100200000010080",
+  "version" : "2.3.0-SNAPSHOT.100200000010181",
   "description" : "Application comprised of Folio edge modules",
   "modules" : [ {
+    "id" : "edge-erm-1.6.0-SNAPSHOT.2048",
+    "name" : "edge-erm",
+    "version" : "1.6.0-SNAPSHOT.2048"
+  }, {
+    "id" : "edge-connexion-1.5.1-SNAPSHOT.2020",
+    "name" : "edge-connexion",
+    "version" : "1.5.1-SNAPSHOT.2020"
+  }, {
     "id" : "edge-dematic-3.1.0-SNAPSHOT.2101",
     "name" : "edge-dematic",
     "version" : "3.1.0-SNAPSHOT.2101"
@@ -11,10 +19,6 @@
     "id" : "edge-caiasoft-3.1.0-SNAPSHOT.2066",
     "name" : "edge-caiasoft",
     "version" : "3.1.0-SNAPSHOT.2066"
-  }, {
-    "id" : "edge-connexion-1.5.1-SNAPSHOT.2020",
-    "name" : "edge-connexion",
-    "version" : "1.5.1-SNAPSHOT.2020"
   }, {
     "id" : "edge-sip2-4.1.0-SNAPSHOT.2119",
     "name" : "edge-sip2",
@@ -31,10 +35,6 @@
     "id" : "edge-ncip-1.12.0-SNAPSHOT.2039",
     "name" : "edge-ncip",
     "version" : "1.12.0-SNAPSHOT.2039"
-  }, {
-    "id" : "edge-erm-1.6.0-SNAPSHOT.2043",
-    "name" : "edge-erm",
-    "version" : "1.6.0-SNAPSHOT.2043"
   } ],
   "uiModules" : [ ],
   "dependencies" : [ {
@@ -342,7 +342,7 @@
       }
     }
   }, {
-    "id" : "edge-erm-1.6.0-SNAPSHOT.2043",
+    "id" : "edge-erm-1.6.0-SNAPSHOT.2048",
     "name" : "Retrieve license term information Edge API",
     "requires" : [ {
       "id" : "login",
@@ -354,7 +354,7 @@
     "provides" : [ ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/edge-erm:1.6.0-SNAPSHOT.2043",
+      "dockerImage" : "folioci/edge-erm:1.6.0-SNAPSHOT.2048",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
