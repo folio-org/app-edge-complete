@@ -1,12 +1,12 @@
 {
-  "id" : "app-edge-complete-2.3.0-SNAPSHOT.100200000010191",
+  "id" : "app-edge-complete-2.3.0-SNAPSHOT.100200000010335",
   "name" : "app-edge-complete",
-  "version" : "2.3.0-SNAPSHOT.100200000010191",
+  "version" : "2.3.0-SNAPSHOT.100200000010335",
   "description" : "Application comprised of Folio edge modules",
   "modules" : [ {
-    "id" : "edge-courses-1.8.0-SNAPSHOT.2055",
-    "name" : "edge-courses",
-    "version" : "1.8.0-SNAPSHOT.2055"
+    "id" : "edge-patron-5.5.0-SNAPSHOT.2011",
+    "name" : "edge-patron",
+    "version" : "5.5.0-SNAPSHOT.2011"
   }, {
     "id" : "edge-connexion-1.5.1-SNAPSHOT.2020",
     "name" : "edge-connexion",
@@ -24,9 +24,9 @@
     "name" : "edge-sip2",
     "version" : "4.1.0-SNAPSHOT.2119"
   }, {
-    "id" : "edge-patron-5.5.0-SNAPSHOT.2006",
-    "name" : "edge-patron",
-    "version" : "5.5.0-SNAPSHOT.2006"
+    "id" : "edge-courses-1.8.0-SNAPSHOT.2055",
+    "name" : "edge-courses",
+    "version" : "1.8.0-SNAPSHOT.2055"
   }, {
     "id" : "edge-ncip-1.12.0-SNAPSHOT.2039",
     "name" : "edge-ncip",
@@ -228,9 +228,12 @@
       }
     }
   }, {
-    "id" : "edge-patron-5.5.0-SNAPSHOT.2006",
+    "id" : "edge-patron-5.5.0-SNAPSHOT.2011",
     "name" : "Patron Services Edge API",
     "requires" : [ {
+      "id" : "users",
+      "version" : "16.4"
+    }, {
       "id" : "patron",
       "version" : "6.6"
     }, {
@@ -241,9 +244,13 @@
       "version" : "5.0 6.0 7.0"
     } ],
     "provides" : [ ],
+    "optional" : [ {
+      "id" : "circulation-bff-users",
+      "version" : "1.0"
+    } ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/edge-patron:5.5.0-SNAPSHOT.2006",
+      "dockerImage" : "folioci/edge-patron:5.5.0-SNAPSHOT.2011",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
