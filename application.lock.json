@@ -1,9 +1,17 @@
 {
-  "id" : "app-edge-complete-2.2.5",
+  "id" : "app-edge-complete-2.2.6",
   "name" : "app-edge-complete",
-  "version" : "2.2.5",
+  "version" : "2.2.6",
   "description" : "Application comprised of Folio edge modules",
   "modules" : [ {
+    "id" : "edge-patron-5.4.1",
+    "name" : "edge-patron",
+    "version" : "5.4.1"
+  }, {
+    "id" : "edge-connexion-1.5.0",
+    "name" : "edge-connexion",
+    "version" : "1.5.0"
+  }, {
     "id" : "edge-dematic-3.0.1",
     "name" : "edge-dematic",
     "version" : "3.0.1"
@@ -12,17 +20,9 @@
     "name" : "edge-caiasoft",
     "version" : "3.0.1"
   }, {
-    "id" : "edge-connexion-1.5.0",
-    "name" : "edge-connexion",
-    "version" : "1.5.0"
-  }, {
     "id" : "edge-sip2-4.0.2",
     "name" : "edge-sip2",
     "version" : "4.0.2"
-  }, {
-    "id" : "edge-patron-5.4.0",
-    "name" : "edge-patron",
-    "version" : "5.4.0"
   }, {
     "id" : "edge-courses-1.7.1",
     "name" : "edge-courses",
@@ -206,9 +206,12 @@
       }
     }
   }, {
-    "id" : "edge-patron-5.4.0",
+    "id" : "edge-patron-5.4.1",
     "name" : "Patron Services Edge API",
     "requires" : [ {
+      "id" : "users",
+      "version" : "16.4"
+    }, {
       "id" : "patron",
       "version" : "6.6"
     }, {
@@ -219,9 +222,13 @@
       "version" : "5.0 6.0 7.0"
     } ],
     "provides" : [ ],
+    "optional" : [ {
+      "id" : "circulation-bff-users",
+      "version" : "1.0"
+    } ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/edge-patron:5.4.0",
+      "dockerImage" : "folioorg/edge-patron:5.4.1",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
