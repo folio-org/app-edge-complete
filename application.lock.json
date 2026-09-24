@@ -1,12 +1,12 @@
 {
-  "id" : "app-edge-complete-2.2.6",
+  "id" : "app-edge-complete-2.2.7",
   "name" : "app-edge-complete",
-  "version" : "2.2.6",
+  "version" : "2.2.7",
   "description" : "Application comprised of Folio edge modules",
   "modules" : [ {
-    "id" : "edge-patron-5.4.1",
-    "name" : "edge-patron",
-    "version" : "5.4.1"
+    "id" : "edge-sip2-4.0.3",
+    "name" : "edge-sip2",
+    "version" : "4.0.3"
   }, {
     "id" : "edge-connexion-1.5.0",
     "name" : "edge-connexion",
@@ -20,9 +20,9 @@
     "name" : "edge-caiasoft",
     "version" : "3.0.1"
   }, {
-    "id" : "edge-sip2-4.0.2",
-    "name" : "edge-sip2",
-    "version" : "4.0.2"
+    "id" : "edge-patron-5.4.1",
+    "name" : "edge-patron",
+    "version" : "5.4.1"
   }, {
     "id" : "edge-courses-1.7.1",
     "name" : "edge-courses",
@@ -142,7 +142,7 @@
       }
     }
   }, {
-    "id" : "edge-sip2-4.0.2",
+    "id" : "edge-sip2-4.0.3",
     "name" : "SIP2 Module",
     "requires" : [ {
       "id" : "login",
@@ -168,6 +168,21 @@
     }, {
       "id" : "settings",
       "version" : "1.2"
+    }, {
+      "id" : "users-bl",
+      "version" : "6.1"
+    }, {
+      "id" : "patron-pin",
+      "version" : "1.0"
+    }, {
+      "id" : "holdings-storage",
+      "version" : "8.2"
+    }, {
+      "id" : "inventory",
+      "version" : "14.4"
+    }, {
+      "id" : "automated-patron-blocks",
+      "version" : "0.1"
     } ],
     "provides" : [ ],
     "permissionSets" : [ {
@@ -185,7 +200,7 @@
       "description" : "To write the setting to mod-settings with edge-sip2 scope"
     } ],
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/edge-sip2:4.0.2",
+      "dockerImage" : "folioorg/edge-sip2:4.0.3",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
