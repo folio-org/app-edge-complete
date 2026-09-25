@@ -4,21 +4,21 @@
   "version" : "2.2.7",
   "description" : "Application comprised of Folio edge modules",
   "modules" : [ {
-    "id" : "edge-sip2-4.0.3",
-    "name" : "edge-sip2",
-    "version" : "4.0.3"
+    "id" : "edge-dematic-3.0.2",
+    "name" : "edge-dematic",
+    "version" : "3.0.2"
   }, {
     "id" : "edge-connexion-1.5.0",
     "name" : "edge-connexion",
     "version" : "1.5.0"
   }, {
-    "id" : "edge-dematic-3.0.1",
-    "name" : "edge-dematic",
-    "version" : "3.0.1"
-  }, {
     "id" : "edge-caiasoft-3.0.1",
     "name" : "edge-caiasoft",
     "version" : "3.0.1"
+  }, {
+    "id" : "edge-sip2-4.0.3",
+    "name" : "edge-sip2",
+    "version" : "4.0.3"
   }, {
     "id" : "edge-patron-5.4.1",
     "name" : "edge-patron",
@@ -61,7 +61,7 @@
     } ],
     "permissionSets" : [ ]
   }, {
-    "id" : "edge-dematic-3.0.1",
+    "id" : "edge-dematic-3.0.2",
     "name" : "Edge Dematic API",
     "requires" : [ {
       "id" : "login",
@@ -85,7 +85,7 @@
     "provides" : [ ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/edge-dematic:3.0.1",
+      "dockerImage" : "folioorg/edge-dematic:3.0.2",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
