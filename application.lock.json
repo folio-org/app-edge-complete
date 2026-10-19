@@ -1,12 +1,12 @@
 {
-  "id" : "app-edge-complete-2.0.18",
+  "id" : "app-edge-complete-2.0.19",
   "name" : "app-edge-complete",
-  "version" : "2.0.18",
+  "version" : "2.0.19",
   "description" : "Application comprised of Folio edge modules",
   "modules" : [ {
-    "id" : "edge-dematic-2.4.4",
+    "id" : "edge-dematic-2.4.5",
     "name" : "edge-dematic",
-    "version" : "2.4.4"
+    "version" : "2.4.5"
   }, {
     "id" : "edge-orders-3.2.3",
     "name" : "edge-orders",
@@ -155,7 +155,7 @@
     } ],
     "permissionSets" : [ ]
   }, {
-    "id" : "edge-dematic-2.4.4",
+    "id" : "edge-dematic-2.4.5",
     "name" : "Edge Dematic API",
     "requires" : [ {
       "id" : "login",
@@ -179,7 +179,7 @@
     "provides" : [ ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/edge-dematic:2.4.4",
+      "dockerImage" : "folioorg/edge-dematic:2.4.5",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
