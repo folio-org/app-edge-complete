@@ -1,16 +1,12 @@
 {
-  "id" : "app-edge-complete-2.3.0-SNAPSHOT.100200000011149",
+  "id" : "app-edge-complete-2.3.0-SNAPSHOT.100200000011181",
   "name" : "app-edge-complete",
-  "version" : "2.3.0-SNAPSHOT.100200000011149",
+  "version" : "2.3.0-SNAPSHOT.100200000011181",
   "description" : "Application comprised of Folio edge modules",
   "modules" : [ {
-    "id" : "edge-patron-5.5.0-SNAPSHOT.2024",
-    "name" : "edge-patron",
-    "version" : "5.5.0-SNAPSHOT.2024"
-  }, {
-    "id" : "edge-connexion-1.5.1-SNAPSHOT.2020",
+    "id" : "edge-connexion-1.6.0-SNAPSHOT.2031",
     "name" : "edge-connexion",
-    "version" : "1.5.1-SNAPSHOT.2020"
+    "version" : "1.6.0-SNAPSHOT.2031"
   }, {
     "id" : "edge-dematic-3.1.0-SNAPSHOT.2101",
     "name" : "edge-dematic",
@@ -23,6 +19,10 @@
     "id" : "edge-sip2-4.1.0-SNAPSHOT.2146",
     "name" : "edge-sip2",
     "version" : "4.1.0-SNAPSHOT.2146"
+  }, {
+    "id" : "edge-patron-5.5.0-SNAPSHOT.2024",
+    "name" : "edge-patron",
+    "version" : "5.5.0-SNAPSHOT.2024"
   }, {
     "id" : "edge-courses-1.8.0-SNAPSHOT.2065",
     "name" : "edge-courses",
@@ -47,7 +47,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "edge-connexion-1.5.1-SNAPSHOT.2020",
+    "id" : "edge-connexion-1.6.0-SNAPSHOT.2031",
     "name" : "edge-connexion",
     "requires" : [ {
       "id" : "login",
@@ -65,7 +65,7 @@
     } ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/edge-connexion:1.5.1-SNAPSHOT.2020",
+      "dockerImage" : "folioci/edge-connexion:1.6.0-SNAPSHOT.2031",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
