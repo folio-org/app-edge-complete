@@ -43,6 +43,7 @@ branches:
       enabled: true
       need_pr: true
       preRelease: "false"
+      skip_dependency_validation: bypass
       ruleset:
         enabled: true
 #  - R2-2024:
