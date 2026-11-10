@@ -1,16 +1,16 @@
 {
-  "id" : "app-edge-complete-2.3.0-SNAPSHOT.100200000011209",
+  "id" : "app-edge-complete-2.3.0-SNAPSHOT.100200000011210",
   "name" : "app-edge-complete",
-  "version" : "2.3.0-SNAPSHOT.100200000011209",
+  "version" : "2.3.0-SNAPSHOT.100200000011210",
   "description" : "Application comprised of Folio edge modules",
   "modules" : [ {
-    "id" : "edge-patron-5.5.0-SNAPSHOT.9fbdff2",
+    "id" : "edge-patron-5.5.0-SNAPSHOT.2024",
     "name" : "edge-patron",
-    "version" : "5.5.0-SNAPSHOT.9fbdff2"
+    "version" : "5.5.0-SNAPSHOT.2024"
   }, {
-    "id" : "edge-courses-1.8.0-SNAPSHOT.c379066",
+    "id" : "edge-courses-1.8.0-SNAPSHOT.2074",
     "name" : "edge-courses",
-    "version" : "1.8.0-SNAPSHOT.c379066"
+    "version" : "1.8.0-SNAPSHOT.2074"
   }, {
     "id" : "edge-connexion-1.6.0-SNAPSHOT.2031",
     "name" : "edge-connexion",
@@ -243,9 +243,8 @@
       }
     }
   }, {
-    "id" : "edge-patron-5.5.0-SNAPSHOT.9fbdff2",
+    "id" : "edge-patron-5.5.0-SNAPSHOT.2024",
     "name" : "Patron Services Edge API",
-    "provides" : [ ],
     "requires" : [ {
       "id" : "users",
       "version" : "16.4"
@@ -259,24 +258,15 @@
       "id" : "login",
       "version" : "5.0 6.0 7.0"
     } ],
+    "provides" : [ ],
     "optional" : [ {
       "id" : "circulation-bff-users",
       "version" : "1.0"
     } ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "edge-patron:5.5.0-SNAPSHOT.9fbdff2",
-      "dockerPull" : false,
-      "dockerArgs" : {
-        "HostConfig" : {
-          "Memory" : 268435456,
-          "PortBindings" : {
-            "8081/tcp" : [ {
-              "HostPort" : "%p"
-            } ]
-          }
-        }
-      },
+      "dockerImage" : "folioci/edge-patron:5.5.0-SNAPSHOT.2024",
+      "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
         "value" : "-XX:MaxRAMPercentage=66.0"
@@ -286,12 +276,21 @@
       }, {
         "name" : "SECURE_TENANT_ID",
         "value" : "securetenant"
-      } ]
+      } ],
+      "dockerArgs" : {
+        "HostConfig" : {
+          "Memory" : 268435456,
+          "PortBindings" : {
+            "8081/tcp" : [ {
+              "HostPort" : "%p"
+            } ]
+          }
+        }
+      }
     }
   }, {
-    "id" : "edge-courses-1.8.0-SNAPSHOT.c379066",
+    "id" : "edge-courses-1.8.0-SNAPSHOT.2074",
     "name" : "Retrieve course-reserve information Edge API",
-    "provides" : [ ],
     "requires" : [ {
       "id" : "course-reserves-storage",
       "version" : "0.3"
@@ -299,20 +298,11 @@
       "id" : "login",
       "version" : "7.3"
     } ],
+    "provides" : [ ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "edge-courses-1.8.0-SNAPSHOT.c379066",
-      "dockerPull" : false,
-      "dockerArgs" : {
-        "HostConfig" : {
-          "Memory" : 268435456,
-          "PortBindings" : {
-            "8080/tcp" : [ {
-              "HostPort" : "%p"
-            } ]
-          }
-        }
-      },
+      "dockerImage" : "folioci/edge-courses:1.8.0-SNAPSHOT.2074",
+      "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
         "value" : "-XX:MaxRAMPercentage=66.0"
@@ -331,7 +321,17 @@
       }, {
         "name" : "token_cache_capacity",
         "value" : "100"
-      } ]
+      } ],
+      "dockerArgs" : {
+        "HostConfig" : {
+          "Memory" : 268435456,
+          "PortBindings" : {
+            "8080/tcp" : [ {
+              "HostPort" : "%p"
+            } ]
+          }
+        }
+      }
     }
   }, {
     "id" : "edge-ncip-1.12.0-SNAPSHOT.2039",
