@@ -1,9 +1,25 @@
 {
-  "id" : "app-edge-complete-2.3.0-SNAPSHOT.100200000011210",
+  "id" : "app-edge-complete-2.3.0-SNAPSHOT.100200000011221",
   "name" : "app-edge-complete",
-  "version" : "2.3.0-SNAPSHOT.100200000011210",
+  "version" : "2.3.0-SNAPSHOT.100200000011221",
   "description" : "Application comprised of Folio edge modules",
   "modules" : [ {
+    "id" : "edge-dematic-3.1.0-SNAPSHOT.2134",
+    "name" : "edge-dematic",
+    "version" : "3.1.0-SNAPSHOT.2134"
+  }, {
+    "id" : "edge-caiasoft-3.1.0-SNAPSHOT.2091",
+    "name" : "edge-caiasoft",
+    "version" : "3.1.0-SNAPSHOT.2091"
+  }, {
+    "id" : "edge-connexion-1.6.0-SNAPSHOT.2031",
+    "name" : "edge-connexion",
+    "version" : "1.6.0-SNAPSHOT.2031"
+  }, {
+    "id" : "edge-sip2-4.1.0-SNAPSHOT.2146",
+    "name" : "edge-sip2",
+    "version" : "4.1.0-SNAPSHOT.2146"
+  }, {
     "id" : "edge-patron-5.5.0-SNAPSHOT.2024",
     "name" : "edge-patron",
     "version" : "5.5.0-SNAPSHOT.2024"
@@ -11,22 +27,6 @@
     "id" : "edge-courses-1.8.0-SNAPSHOT.2074",
     "name" : "edge-courses",
     "version" : "1.8.0-SNAPSHOT.2074"
-  }, {
-    "id" : "edge-connexion-1.6.0-SNAPSHOT.2031",
-    "name" : "edge-connexion",
-    "version" : "1.6.0-SNAPSHOT.2031"
-  }, {
-    "id" : "edge-dematic-3.1.0-SNAPSHOT.2101",
-    "name" : "edge-dematic",
-    "version" : "3.1.0-SNAPSHOT.2101"
-  }, {
-    "id" : "edge-caiasoft-3.1.0-SNAPSHOT.2066",
-    "name" : "edge-caiasoft",
-    "version" : "3.1.0-SNAPSHOT.2066"
-  }, {
-    "id" : "edge-sip2-4.1.0-SNAPSHOT.2146",
-    "name" : "edge-sip2",
-    "version" : "4.1.0-SNAPSHOT.2146"
   }, {
     "id" : "edge-ncip-1.12.0-SNAPSHOT.2039",
     "name" : "edge-ncip",
@@ -83,7 +83,7 @@
       }
     }
   }, {
-    "id" : "edge-dematic-3.1.0-SNAPSHOT.2101",
+    "id" : "edge-dematic-3.1.0-SNAPSHOT.2134",
     "name" : "Edge Dematic API",
     "requires" : [ {
       "id" : "login",
@@ -107,7 +107,7 @@
     "provides" : [ ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/edge-dematic:3.1.0-SNAPSHOT.2101",
+      "dockerImage" : "folioci/edge-dematic:3.1.0-SNAPSHOT.2134",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
@@ -125,7 +125,7 @@
       }
     }
   }, {
-    "id" : "edge-caiasoft-3.1.0-SNAPSHOT.2066",
+    "id" : "edge-caiasoft-3.1.0-SNAPSHOT.2091",
     "name" : "Edge CaiaiSoft API",
     "requires" : [ {
       "id" : "login",
@@ -146,7 +146,7 @@
     "provides" : [ ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/edge-caiasoft:3.1.0-SNAPSHOT.2066",
+      "dockerImage" : "folioci/edge-caiasoft:3.1.0-SNAPSHOT.2091",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
