@@ -1,20 +1,20 @@
 {
-  "id" : "app-edge-complete-2.2.10",
+  "id" : "app-edge-complete-2.2.11",
   "name" : "app-edge-complete",
-  "version" : "2.2.10",
+  "version" : "2.2.11",
   "description" : "Application comprised of Folio edge modules",
   "modules" : [ {
-    "id" : "edge-dematic-3.0.3",
-    "name" : "edge-dematic",
-    "version" : "3.0.3"
+    "id" : "edge-caiasoft-3.0.2",
+    "name" : "edge-caiasoft",
+    "version" : "3.0.2"
   }, {
     "id" : "edge-connexion-1.5.1",
     "name" : "edge-connexion",
     "version" : "1.5.1"
   }, {
-    "id" : "edge-caiasoft-3.0.1",
-    "name" : "edge-caiasoft",
-    "version" : "3.0.1"
+    "id" : "edge-dematic-3.0.3",
+    "name" : "edge-dematic",
+    "version" : "3.0.3"
   }, {
     "id" : "edge-sip2-4.0.3",
     "name" : "edge-sip2",
@@ -121,7 +121,7 @@
       }
     }
   }, {
-    "id" : "edge-caiasoft-3.0.1",
+    "id" : "edge-caiasoft-3.0.2",
     "name" : "Edge CaiaiSoft API",
     "requires" : [ {
       "id" : "login",
@@ -142,7 +142,7 @@
     "provides" : [ ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/edge-caiasoft:3.0.1",
+      "dockerImage" : "folioorg/edge-caiasoft:3.0.2",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
