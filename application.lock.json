@@ -1,28 +1,16 @@
 {
-  "id" : "app-edge-complete-2.2.9",
+  "id" : "app-edge-complete-2.2.10",
   "name" : "app-edge-complete",
-  "version" : "2.2.9",
+  "version" : "2.2.10",
   "description" : "Application comprised of Folio edge modules",
   "modules" : [ {
-    "id" : "edge-patron-5.4.2",
-    "name" : "edge-patron",
-    "version" : "5.4.2"
-  }, {
-    "id" : "edge-courses-1.7.2",
-    "name" : "edge-courses",
-    "version" : "1.7.2"
-  }, {
-    "id" : "edge-erm-1.5.2",
-    "name" : "edge-erm",
-    "version" : "1.5.2"
+    "id" : "edge-dematic-3.0.3",
+    "name" : "edge-dematic",
+    "version" : "3.0.3"
   }, {
     "id" : "edge-connexion-1.5.1",
     "name" : "edge-connexion",
     "version" : "1.5.1"
-  }, {
-    "id" : "edge-dematic-3.0.2",
-    "name" : "edge-dematic",
-    "version" : "3.0.2"
   }, {
     "id" : "edge-caiasoft-3.0.1",
     "name" : "edge-caiasoft",
@@ -32,9 +20,21 @@
     "name" : "edge-sip2",
     "version" : "4.0.3"
   }, {
+    "id" : "edge-patron-5.4.2",
+    "name" : "edge-patron",
+    "version" : "5.4.2"
+  }, {
+    "id" : "edge-courses-1.7.2",
+    "name" : "edge-courses",
+    "version" : "1.7.2"
+  }, {
     "id" : "edge-ncip-1.11.3",
     "name" : "edge-ncip",
     "version" : "1.11.3"
+  }, {
+    "id" : "edge-erm-1.5.2",
+    "name" : "edge-erm",
+    "version" : "1.5.2"
   } ],
   "uiModules" : [ ],
   "dependencies" : [ {
@@ -79,7 +79,7 @@
       }
     }
   }, {
-    "id" : "edge-dematic-3.0.2",
+    "id" : "edge-dematic-3.0.3",
     "name" : "Edge Dematic API",
     "requires" : [ {
       "id" : "login",
@@ -103,7 +103,7 @@
     "provides" : [ ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/edge-dematic:3.0.2",
+      "dockerImage" : "folioorg/edge-dematic:3.0.3",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
