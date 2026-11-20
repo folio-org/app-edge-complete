@@ -8,6 +8,11 @@
       "name": "app-platform-complete",
       "version": "~3.3.0",
       "preRelease": "false"
+    },
+    {
+      "name": "app-agreements",
+      "version": "~1.0.0",
+      "preRelease": "false"
     }
   ],
   "modules": [
